@@ -15,6 +15,7 @@
 		252CC4A21FF3939200010BD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 252CC4A11FF3939200010BD1 /* main.m */; };
 		252CC4AC1FF3939200010BD1 /* HelloButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 252CC4AB1FF3939200010BD1 /* HelloButtonTests.m */; };
 		252CC4B71FF3939200010BD1 /* HelloButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 252CC4B61FF3939200010BD1 /* HelloButtonUITests.m */; };
+		252E0FBD1FF4CFB3000DF8F1 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 252E0FBC1FF4CFB3000DF8F1 /* WebKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		252CC4B21FF3939200010BD1 /* HelloButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		252CC4B61FF3939200010BD1 /* HelloButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloButtonUITests.m; sourceTree = "<group>"; };
 		252CC4B81FF3939200010BD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		252E0FBC1FF4CFB3000DF8F1 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				252E0FBD1FF4CFB3000DF8F1 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +88,7 @@
 				252CC4AA1FF3939200010BD1 /* HelloButtonTests */,
 				252CC4B51FF3939200010BD1 /* HelloButtonUITests */,
 				252CC4901FF3939200010BD1 /* Products */,
+				252E0FBB1FF4CFB3000DF8F1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +134,14 @@
 				252CC4B81FF3939200010BD1 /* Info.plist */,
 			);
 			path = HelloButtonUITests;
+			sourceTree = "<group>";
+		};
+		252E0FBB1FF4CFB3000DF8F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				252E0FBC1FF4CFB3000DF8F1 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
